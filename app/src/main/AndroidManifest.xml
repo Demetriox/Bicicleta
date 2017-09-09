@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jsp.a399090pluginsclientcontrolclient_features.a114.a198.http104.bicicleta">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Informacion"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="jsp.a399090pluginsclientcontrolclient_features.a114.a198.http104.bicicleta.MainActivity" />
+
+        <activity
+            android:name=".tiendilla"
+            android:label="@string/title_activity_tiendilla"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="jsp.a399090pluginsclientcontrolclient_features.a114.a198.http104.bicicleta.MainActivity" />
+        </activity>
+        <activity
+            android:name=".souvenirs"
+            android:label="@string/title_activity_souvenirs"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="jsp.a399090pluginsclientcontrolclient_features.a114.a198.http104.bicicleta.MainActivity" />
+        </activity>
+        <activity
+            android:name=".seguros"
+            android:label="@string/title_activity_seguros"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="jsp.a399090pluginsclientcontrolclient_features.a114.a198.http104.bicicleta.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Kitherramientas"
+            android:label="@string/title_activity_kitherramientas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Mapa"></activity>
+    </application>
+
+</manifest>

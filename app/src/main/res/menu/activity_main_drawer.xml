@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tienda"
+            android:icon="@drawable/ic_menu_camera"
+
+            android:title="Tienda" />
+
+        <item
+            android:id="@+id/nav_souvenirs"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Souvenirs"
+
+            />
+        <item
+            android:id="@+id/nav_seguros"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Seguros" />
+        <item
+            android:id="@+id/nav_rutas"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Rutas" />
+        <item
+            android:id="@+id/nav_kitHerramientas"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Herramientas" />
+        <item
+            android:id="@+id/nav_club"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Club" />
+        <item
+            android:id="@+id/nav_agenda"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Agenda"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Info" />
+    </group>
+
+
+
+</menu>
